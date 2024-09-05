@@ -1,0 +1,21 @@
+.modal-overlay {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* پس‌زمینه نیمه شفاف */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: all; /* فعال کردن تعامل برای مدال */
+}
+
+.modal-content {
+  background-color: white;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 8px; /* گوشه‌های گرد */
+  pointer-events: all; /* فعال کردن تعامل برای محتوای مدال */
+}
